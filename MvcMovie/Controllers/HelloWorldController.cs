@@ -22,6 +22,10 @@ namespace MvcMovie.Controllers
             ViewBag.Age = age;
             return View();
         }
+        public string SayHello()
+        {
+            return "Hello";
+        }
 
       
     }
